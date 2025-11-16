@@ -1,0 +1,48 @@
+/*
+要件
+1:ちょうど１０秒たったとおもったら何かキーを押してくださいというダイアログを表示する
+2:ダイアログでOKを押すと時間あてゲームがスタートする
+3:何かキーを押すと、時間あてゲームがストップし、スタートからの秒数を計算する。
+4:9.5 秒から 10.5 秒の間なら「すごい」、そうでないなら「残念」と表示する
+*/
+
+// let startTime = null;
+
+// function start(){
+//   startTime= Date.now();
+//   console.log("スタートしました。");
+//   console.log(`startTime:${startTime}`);
+// }
+
+// function stop(){
+//   console.log("stop");
+// }
+
+
+// //confirm() okを押すとTrueを返して、キャンセルを押すとFalseを返す
+// //ある要素.addEventListener(イベント,イベントハンドラ)
+// //第 2 引数として、第 1 引数に渡した出来事が起きた時に実行する関数を渡しています。
+// //function() { ... } のように書いて名前のない関数を表現し、そのまま引数として渡しています。
+
+// if (confirm('OKを押して10秒だと思ったら何かキーを押してください。')){
+//   start();
+//   document.body.addEventListener(
+//     'keydown',
+//     stop
+//   )
+// }
+
+let startTime = null;
+if (confirm('confirm() は alert() と同様に、引数で渡した文字列をダイアログで表示する関数です。ただし confirm() では alert() と違い、ボタンが OK とキャンセルの 2 つに増えます。さらに confirm() では戻り値が意味を持ち、OK ボタンが押されると true 、キャンセルボタンが押されると false が返ります。'));
+
+
+function start(){
+  start.Time = Date.now();
+  console.log('開始しました');
+  console.log('starttime:'.startTime);
+}
+
+if(confirm('okを押してちょうど10秒立ったと思ったら何らかのキーを押してください')){
+  start();
+}
+
