@@ -1,0 +1,21 @@
+body{
+    background-color: teal;
+  }
+li{
+  list-style-type: square;
+  margin: 10px;
+}
+
+a{
+  font-weight: bold;
+}
+
+ p {
+   color: white;
+   background-color: cornflowerblue;
+ }
+ span {
+   color: black;
+   background-color: white;
+ }
+ 
